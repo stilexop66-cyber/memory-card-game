@@ -1,8 +1,8 @@
-export const windMessage = (moves) => {
+export const WindMessage = ({ moves }) => {
   return (
     <div className="win-message">
       <h2>Congratulations! You won!</h2>
-      <p>you completed the game in {moves} moves</p>
+      <p>You completed the game in {moves} moves</p>
     </div>
   );
 };
